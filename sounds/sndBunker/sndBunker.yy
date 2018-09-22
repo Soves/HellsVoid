@@ -3,7 +3,7 @@
     "modelName": "GMSound",
     "mvc": "1.0",
     "name": "sndBunker",
-    "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
+    "audioGroupGuid": "af4c3ca0-8f44-4ca6-b601-bb127e8f63f5",
     "bitDepth": 1,
     "bitRate": 128,
     "kind": 0,

@@ -7,7 +7,12 @@
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-
+        "f86f7884-3e64-4547-a9ba-d4b2ac00dc4e",
+        "d8cb8458-d1d2-4eaa-b340-df6a2058987f",
+        "00920259-d5c4-46aa-aa87-006a1f1ee667",
+        "491b0870-1257-4ca3-8add-ac06e2791199",
+        "4aedfb57-5340-4eb3-a919-3fa1b5b1d6d8",
+        "460d954e-cf23-474e-9805-818b7f15dcb8"
     ],
     "IsDnD": false,
     "layers": [
@@ -25,7 +30,12 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-
+{"name": "inst_32B7BEBD","id": "f86f7884-3e64-4547-a9ba-d4b2ac00dc4e","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_32B7BEBD","objId": "573fe803-d0ea-4df5-991f-ca8b3209ee8f","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 480,"y": 448},
+{"name": "inst_F62562F","id": "d8cb8458-d1d2-4eaa-b340-df6a2058987f","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_F62562F","objId": "573fe803-d0ea-4df5-991f-ca8b3209ee8f","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 928,"y": 320},
+{"name": "inst_D126FE7","id": "00920259-d5c4-46aa-aa87-006a1f1ee667","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_D126FE7","objId": "573fe803-d0ea-4df5-991f-ca8b3209ee8f","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 672,"y": 160},
+{"name": "inst_45601895","id": "491b0870-1257-4ca3-8add-ac06e2791199","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_45601895","objId": "573fe803-d0ea-4df5-991f-ca8b3209ee8f","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 864,"y": 512},
+{"name": "inst_5BFDB87E","id": "4aedfb57-5340-4eb3-a919-3fa1b5b1d6d8","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_5BFDB87E","objId": "573fe803-d0ea-4df5-991f-ca8b3209ee8f","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 704,"y": 352},
+{"name": "inst_193BFF09","id": "460d954e-cf23-474e-9805-818b7f15dcb8","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_193BFF09","objId": "cb701fa7-7ee0-492c-8942-9444c75fe02e","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 0,"y": 0}
             ],
             "layers": [
 
@@ -87,12 +97,12 @@
     },
     "roomSettings":     {
         "id": "6f4d082c-20ff-4ef4-9923-4981e72f6020",
-        "Height": 768,
+        "Height": 720,
         "inheritRoomSettings": false,
         "modelName": "GMRoomSettings",
         "persistent": false,
         "mvc": "1.0",
-        "Width": 1024
+        "Width": 1280
     },
     "mvc": "1.0",
     "views": [

@@ -15,8 +15,11 @@ switch(page){
 	;break;
 	case showMenu.main:
 	#region
-		page = mButtonSelected;
-		mButtonSelected = -1;
+		if mButtonSelected >= 0 && mButtonSelected <= array_length_1d(mButton){
+			page = mButtonSelected;
+			mButtonSelected = -1;
+		}
 	#endregion
 	;break;
+	
 }

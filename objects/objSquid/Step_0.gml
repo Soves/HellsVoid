@@ -9,9 +9,25 @@ switch(state){
 		}
 		
 		//detectors
-		if collision_circle(x,y,detectR,follow_,false,true){
-			state = states.follow;
-			timer = 0;
+		
+		//follow
+		if follow_ != noone{
+		#region
+			if collision_circle(x,y,detectR,follow_,false,true){
+				state = states.follow;
+				timer = 0;
+			}
+		#endregion
+		}
+		
+		//repell
+		if avoid_ != noone{
+		#region
+		if collision_circle(x,y,repellR,avoid_,false,true){
+			hspeed_ = lengthdir_x(-speed_,point_direction(x,y,instance_nearest(x,y,avoid_).x,instance_nearest(x,y,avoid_).y));
+			vspeed_ = lengthdir_y(-speed_,point_direction(x,y,instance_nearest(x,y,avoid_).x,instance_nearest(x,y,avoid_).y));
+		}
+		#endregion
 		}
 	#endregion
 		;break;
@@ -24,6 +40,7 @@ switch(state){
 		vspeed_ = lengthdir_y(speed_,ang);
 		
 		state = states.idle;
+		
 	#endregion
 		;break;
 		
@@ -32,6 +49,9 @@ switch(state){
 	
 		//detectors
 		timer++;
+		//follow
+		if follow_ != noone{
+		#region
 		if collision_circle(x,y,detectR,follow_,false,true){
 			if timer = wonderS{
 			hspeed_ = lengthdir_x(speed_,point_direction(x,y,follow_.x,follow_.y));
@@ -41,6 +61,20 @@ switch(state){
 		}else{
 			state = states.idle;
 			timer = 0;
+		}
+		}else{
+			state = states.idle;
+			timer = 0;
+		#endregion
+		}
+		//repell
+		if avoid_ != noone{
+		#region
+		if collision_circle(x,y,repellR,avoid_,false,true){
+			hspeed_ = lengthdir_x(-speed_,point_direction(x,y,instance_nearest(x,y,avoid_).x,instance_nearest(x,y,avoid_).y));
+			vspeed_ = lengthdir_y(-speed_,point_direction(x,y,instance_nearest(x,y,avoid_).x,instance_nearest(x,y,avoid_).y));
+		}
+		#endregion
 		}
 		
 	#endregion

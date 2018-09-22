@@ -423,6 +423,14 @@
             }
         },
         {
+            "Key": "e9009c87-374c-4093-b851-503cc778ed5e",
+            "Value": {
+                "id": "a9d20f65-2753-441d-a60d-defd1ddd9368",
+                "resourcePath": "notes\\note0.yy",
+                "resourceType": "GMNotes"
+            }
+        },
+        {
             "Key": "f13833d0-29b4-41a6-93eb-bbdd3969f1fa",
             "Value": {
                 "id": "c7de0677-c337-4caa-a402-bcf7b2edd94b",

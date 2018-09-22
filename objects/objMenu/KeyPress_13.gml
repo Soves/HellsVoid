@@ -23,3 +23,4 @@ switch(page){
 	;break;
 	
 }
+audio_play_sound(sndSelect1,2,false);

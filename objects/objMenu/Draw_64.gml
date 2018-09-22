@@ -35,8 +35,7 @@ switch (page){ //draw menu pages
 	
 	draw_set_font(font1_);
 	draw_set_halign(fa_center);
-	
-	draw_text_transformed(UiAlingX,UiAlingY,"are you sure?",1,1,0);
+	draw_text_transformed_color(UiAlingX,UiAlingY,"create a new game?",1,1,0,c_yellow,c_yellow,c_yellow,c_yellow,1);
 	
 		for (var i = 0; i < mLimit; i++){
 			if mButtonSelected = i{

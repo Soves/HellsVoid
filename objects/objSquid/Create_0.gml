@@ -4,6 +4,7 @@ randomize();
 //detector radius'es
 detectR = 128;
 hitR = 36;
+repellR = 32;
 
 timer = 0;
 wonderS = 2*room_speed;
@@ -25,3 +26,4 @@ dampening_ = .1;
 speed_ = 4;
 
 follow_ = objMouse;
+avoid_ = objAvoid;

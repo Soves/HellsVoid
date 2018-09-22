@@ -4,5 +4,6 @@ audio_group_load(background_music);
 audio_group_load(sound_effects);
 
 //sound variables
-global.musicGain = 1;
-global.sfxGain = 1;
+global.musicGain = .5;
+global.sfxGain = .6;
+global.soundInit = false;
